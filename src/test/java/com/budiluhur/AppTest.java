@@ -1,20 +1,13 @@
-package com.budiluhur;
+package com.budiluhur.catalog;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.Test;
+import org.springframework.boot.test.context.SpringBootTest;
 
-import org.junit.Test;
+@SpringBootTest
+class AppTest {
 
-/**
- * Unit test for simple App.
- */
-public class AppTest 
-{
-    /**
-     * Rigorous Test :-)
-     */
     @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
+    void contextLoads() {
+        // Pengujian otomatis untuk memastikan aplikasi Spring Boot dapat berjalan tanpa error
     }
 }
